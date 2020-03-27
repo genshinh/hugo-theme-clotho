@@ -28,5 +28,7 @@
     "tachyons": "^4.11.1",
     "webpack": "^4.42.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }

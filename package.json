@@ -22,5 +22,8 @@
   "homepage": "https://github.com/theNewDynamic/thenewdynamic.com#readme",
   "devDependencies": {
     "auto-changelog": "^1.16.3"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
   }
 }
