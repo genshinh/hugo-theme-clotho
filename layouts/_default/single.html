@@ -55,6 +55,9 @@
       {{ if .Site.Params.commentoEnable }}
         {{- partial "commento.html" . -}}
       {{ end }}
+      {{ if .Site.Params.utterances.isEnabled }}
+        {{- partial "utterances.html" . -}}
+      {{ end }}
       </div>
     </div>
 
